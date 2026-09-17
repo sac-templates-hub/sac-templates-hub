@@ -1,6 +1,6 @@
 # SAC Templates Hub
 
-**Free, ready-to-use templates for SAP Analytics Cloud (SAC) and SAC Planning.**
+**Free, ready-to-use templates for SAP Analytics Cloud (SAC) and SAC Planning — plus tested accelerators for the parts that have to be right.**
 
 🔗 **Website: [sactemplateshub.com](https://sactemplateshub.com)**
 
@@ -18,23 +18,26 @@ SAC Templates Hub is an independent project that gives SAP Analytics Cloud consu
 - **Interactive KPI previews** — see the dimensions, measures and sample charts before you download.
 - **Three download formats** per template: `.xlsx` (multi-sheet workbook), `.csv` (flat table) and `.package` (SAC model bundle with model.json + data + README).
 
-### Regulatory accelerators (paid)
-- **Solvency II** — SCR, MCR, own funds, solvency ratio with EIOPA thresholds.
+### Tested accelerators (paid)
+Not just a CSV — each ships a tested model, a step-by-step import guide, and a validation passport recording what was actually verified, including that it imports and displays in a live SAC tenant.
+- **Rolling Forecast** — an Actual / Budget / Forecast planning model, proven end-to-end in a live tenant.
+- **Solvency II** — SCR, MCR, own funds, solvency ratio with EIOPA thresholds (ratios allowed to exceed 100%, not silently capped).
 - **Basel III** — CET1, LCR, NSFR with BIS/BCBS bounds.
 - **IFRS 17** — CSM roll-forward, risk adjustment, BBA/VFA/PAA model structures.
 - **CSRD / ESRS** — ESRS datapoints, double materiality, Scopes 1/2/3 (updated for the 2026 Omnibus reform).
 
-### Blog — 33 technical articles
+### Blog — 55 technical articles
 Practical guides, not marketing — written at a level SAC consultants and finance teams actually use.
 
 **SAC releases (2026 QRC cycle):**
 - SAC Quarterly Release 2026 — the full-year index
 - QRC1 2026: story versioning, Pareto charts, live Snowflake
 - QRC2 2026: asymmetric reporting, decoupled Data Panel
-- QRC3 2026 preview (August) · QRC4 2026 preview (November)
+- QRC3 2026: rolled out mid-August · QRC4 2026: due mid-November
+- The full SAC release tracker at [/releases](https://sactemplateshub.com/releases)
 
 **Comparisons:**
-- SAC vs Power BI · SAC vs Anaplan · SAC vs Tableau · SAC vs Qlik Sense · SAC vs Looker
+- SAC vs Power BI · SAC vs Anaplan · SAC vs Tableau · SAC vs Qlik Sense · SAC vs Looker · SAC vs OneStream
 
 **Regulatory & ESG:**
 - Basel III in SAC (CET1, LCR, NSFR) · Solvency II (SCR, MCR)
@@ -42,12 +45,11 @@ Practical guides, not marketing — written at a level SAC consultants and finan
 - BCBS 239 risk data aggregation · Pillar 3 disclosures
 - CSRD/ESG Scopes 1/2/3 · Double materiality (ESRS)
 - SAP Analytics Cloud for ESG reporting · CSRD dashboard examples
-- Carbon accounting KPIs · ESG metrics every company should track
 
 **Tutorials:**
+- How to import a model into SAC (end-to-end, with the tenant pitfalls)
 - Import CSV into SAC Modeler · Multi-sheet Excel import
-- SUM / AVERAGE / LAST / COUNT aggregation guide
-- Exception aggregation over the time dimension
+- SUM / AVERAGE / LAST / COUNT aggregation guide · Exception aggregation over time
 - The Version dimension (Actual / Budget / Forecast)
 - Data Actions: copy, allocate, spread in SAC Planning
 - Workforce planning · Retail store performance · Supply chain stock model
@@ -76,7 +78,7 @@ No tracking, no cookies, no analytics. CSV/Excel files uploaded to the generator
 
 ## License
 
-The community templates are provided free to use under the MIT license. Regulatory accelerators are paid products. Built from official public sources (EIOPA, BIS/BCBS, EFRAG) where regulatory frameworks are involved — you remain the validator of your own models.
+The community templates are provided free to use under the MIT license. The tested accelerators (Rolling Forecast and the regulatory kits) are paid products. Built from official public sources (EIOPA, BIS/BCBS, EFRAG) where regulatory frameworks are involved — you remain the validator of your own models.
 
 ---
 
