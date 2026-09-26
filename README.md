@@ -19,7 +19,7 @@ SAC Templates Hub is an independent project that gives SAP Analytics Cloud consu
 - **Three download formats** per template: `.xlsx` (multi-sheet workbook), `.csv` (flat table) and `.package` (SAC model bundle with model.json + data + README).
 
 ### Tested accelerators (paid)
-Not just a CSV — each ships a tested model, a step-by-step import guide, and a validation passport recording what was actually verified, including that it imports and displays in a live SAC tenant.
+Not just a CSV — each ships a tested model, a step-by-step import guide, and a validation passport recording exactly what was verified for that accelerator — up to and including import and display in a live SAC tenant.
 - **Rolling Forecast** — an Actual / Budget / Forecast planning model, proven end-to-end in a live tenant.
 - **Solvency II** — SCR, MCR, own funds, solvency ratio with EIOPA thresholds (ratios allowed to exceed 100%, not silently capped).
 - **Basel III** — CET1, LCR, NSFR with BIS/BCBS bounds.
